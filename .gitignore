@@ -136,5 +136,9 @@ dmypy.json
 config/configfiles/*
 config/difference/*
 
+# Exception to the rule
+!config/configfiles/.gitkeep
+!config/difference/.gitkeep
+
 # remote
 remote/
